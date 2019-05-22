@@ -14,6 +14,10 @@
 		B226103222953892000B8D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B226103022953892000B8D3C /* LaunchScreen.storyboard */; };
 		B226103D22953892000B8D3C /* EarthQuakeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226103C22953892000B8D3C /* EarthQuakeDemoTests.swift */; };
 		B226104822953892000B8D3C /* EarthQuakeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226104722953892000B8D3C /* EarthQuakeDemoUITests.swift */; };
+		B22610562295392D000B8D3C /* EntityEarthQuake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22610552295392D000B8D3C /* EntityEarthQuake.swift */; };
+		B2261058229551BD000B8D3C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2261057229551BD000B8D3C /* DataService.swift */; };
+		B226105A229559D6000B8D3C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2261059229559D6000B8D3C /* TableViewController.swift */; };
+		B226105C22955C97000B8D3C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226105B22955C97000B8D3C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B226104322953892000B8D3C /* EarthQuakeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthQuakeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B226104722953892000B8D3C /* EarthQuakeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeDemoUITests.swift; sourceTree = "<group>"; };
 		B226104922953892000B8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22610552295392D000B8D3C /* EntityEarthQuake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityEarthQuake.swift; sourceTree = "<group>"; };
+		B2261057229551BD000B8D3C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B2261059229559D6000B8D3C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B226105B22955C97000B8D3C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				B226102722953891000B8D3C /* AppDelegate.swift */,
 				B226102922953891000B8D3C /* ViewController.swift */,
+				B22610552295392D000B8D3C /* EntityEarthQuake.swift */,
+				B2261057229551BD000B8D3C /* DataService.swift */,
+				B2261059229559D6000B8D3C /* TableViewController.swift */,
+				B226105B22955C97000B8D3C /* TableViewCell.swift */,
 				B226102B22953891000B8D3C /* Main.storyboard */,
 				B226102E22953892000B8D3C /* Assets.xcassets */,
 				B226103022953892000B8D3C /* LaunchScreen.storyboard */,
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B226102A22953891000B8D3C /* ViewController.swift in Sources */,
+				B22610562295392D000B8D3C /* EntityEarthQuake.swift in Sources */,
 				B226102822953891000B8D3C /* AppDelegate.swift in Sources */,
+				B226105C22955C97000B8D3C /* TableViewCell.swift in Sources */,
+				B226105A229559D6000B8D3C /* TableViewController.swift in Sources */,
+				B2261058229551BD000B8D3C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
